@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map SD
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin		KEYWORD2
+loadByte	KEYWORD2
+setRotation	KEYWORD2
+loadMatrix	KEYWORD2
+force		KEYWORD2
+onOff		KEYWORD2
+clear		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
