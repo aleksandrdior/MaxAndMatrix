@@ -1,2 +1,4 @@
 # MaxAndMatrix
 Arduino Library for 8x8 LED Display with MAX7219 chip
+The begin function contains initialization instructions for the MAX7219 chip.
+In the MaxAndMatrix library, the loadMatrix() function turned out to be excessively complex, but in it we took care of rotating the image by an angle of 0°, 90°, 180° and 270° without changing the contents of the user's matrix (array). Such a rotation of the image is likely to be useful in the future, because the designer orients the LED matrix in space, and the programmer generates the image. In order for the programs to be universal and for any displays to work with our program, we added the possibility of pre-configured using the setRotation() function to rotate the image by an angle of 0°, 90°, 180° or 270° at the time of output to the LED matrix.
